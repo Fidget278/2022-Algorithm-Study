@@ -1,6 +1,7 @@
 # 시간 : 104ms
 # 메모리 : 444B
-# 복잡도 : O(n)
+# 복잡도 : O(n^2)
+# 링크 : https://www.acmicpc.net/problem/9375
 
 from functools import reduce
 from collections import defaultdict
