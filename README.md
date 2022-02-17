@@ -11,6 +11,11 @@
     i. 개념+알고리즘+풀이 방식 자세하게 설명.
   
     ii. 스터디원들이 모두 이해할 때까지 설명.
+    
+    iii. 새로운 주제 발생 시 학습 후 내용 공유. ex) HashMap
+    
+    iv. 코드 리뷰 전 파일 업로드.
+    
   2. GitHub를 통해 Pull Request로 알고리즘 풀이 코드 관리.
 
 ## 주간 문제
@@ -20,7 +25,3 @@
 |완주하지 못한 선수|2022-02-07 ~ 2022-02-17|[[링크](https://programmers.co.kr/learn/courses/30/lessons/42576)]
 |하노이의 탑|2022-02-14 ~ 2022-02-21|[[링크](https://programmers.co.kr/learn/courses/30/lessons/12946)]
 
-
-
-
-새로운 주제에 대해 공부 > 공부 내용 공유 
