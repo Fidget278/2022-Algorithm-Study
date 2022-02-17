@@ -1,5 +1,15 @@
-public class AlgorithmStudy {
-    public static void main(String[] args) {
-        System.out.println("hello world");
+import java.util.*;
+
+class Solution {
+    public String solution(String[] participant, String[] completion) {
+        Arrays.sort(participant); 
+        Arrays.sort(completion);
+        
+        int i = 0;
+        for(i=0; i<completion.length; ++i) 
+            if(!participant[i].equals(completion[i]))
+                break;
+
+        return participant[i];
     }
 }
