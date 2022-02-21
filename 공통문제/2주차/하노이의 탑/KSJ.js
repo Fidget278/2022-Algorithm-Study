@@ -12,9 +12,12 @@ function solution(n) {
         hanoi(n - 1, start, end, mid);
         answer.push([start,end]);
         hanoi(n - 1, mid, start, end);
+        console.log(answer);
     }
     
     hanoi(n,1,2,3);
     
     return answer;
 }
+
+solution(3);
