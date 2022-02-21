@@ -10,7 +10,6 @@ public class AlgorithmStudy2 {
 
     public void hanoi(int n, int start, int mid, int end) {
 
-
         if (n == 1) {
             list.add(start);
             list.add(end);
