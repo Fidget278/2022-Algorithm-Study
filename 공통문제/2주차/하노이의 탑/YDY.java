@@ -10,14 +10,15 @@ public class AlgorithmStudy2 {
 
     public void hanoi(int n, int start, int mid, int end) {
 
-
         if (n == 1) {
             list.add(start);
             list.add(end);
         } else {
+            //1번 기둥에서 3번 기둥을 거쳐 2번 기둥으로
             hanoi(n-1, start, end, mid); //start -> mid
             list.add(start);
             list.add(end);
+            //2번 기둥에서 1번 기둥을 거쳐 3번 기둥으로
             hanoi(n-1, mid, start, end); //mid -> end
         }
     }
