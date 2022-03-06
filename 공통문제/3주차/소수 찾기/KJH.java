@@ -15,11 +15,12 @@ public class FindDecimals {
             return false;
 
         //2. 에라토스테네스의 체의 limit 숫자를 계산한다.
-        //Math.sqrt는 제곱근을 구하는 함수.
+        //Math.sqrt(): 제곱근을 구하는 함수.
         int lim = (int) Math.sqrt(num);
 
         //3. 에라토스테네스의 체에 따라 lim까지 배수 여부를 확인한다.
         for (int i = 2; i<=lim; i++){
+            //num을 나눈 나머지 값이 0이 나온다면 소수가 아니다.
             if(num % i == 0 )
                 return false;
         }
