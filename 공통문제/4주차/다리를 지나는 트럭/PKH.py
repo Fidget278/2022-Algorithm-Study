@@ -1,6 +1,5 @@
 def solution(bridge_length, weight, truck_weights):
     answer = 0
-    move = [0 for i in truck_weights]
     temp1 = []; temp2 = []
     
     while True:
