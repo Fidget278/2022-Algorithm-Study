@@ -1,5 +1,5 @@
 public int solution(int bridge_length, int weight, int[] truck_weights) {
-            //트럭은 1초당 1length 이동한다.
+            //트럭은 1 time에 1 length 이동한다.
             //bridge_length: 다리의 길이
             //weight: 다리가 견딜 수 있는 무게
             //truck_weights: 대기중인 트럭들(무게)
