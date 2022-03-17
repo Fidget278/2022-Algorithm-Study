@@ -30,19 +30,4 @@ public class AlgorithmStudy4 {
         System.out.println("answer : " + answer);
         return answer;
     }
-
-    public static void main(String[] args) {
-//        int bridge_length = 2;
-//        int weight = 10;
-//        int[] truck_weights = {7, 4, 5, 6};
-
-//        int bridge_length = 100;
-//        int weight = 100;
-//        int[] truck_weights = {10};
-
-        int bridge_length = 100;
-        int weight = 100;
-        int[] truck_weights = {10, 10, 10, 10, 10, 10, 10, 10, 10, 10};
-        solution3(bridge_length, weight, truck_weights);
-    }
 }
