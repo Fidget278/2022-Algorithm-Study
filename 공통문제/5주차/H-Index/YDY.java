@@ -27,20 +27,4 @@ public class AlgorithmStudy5 {
 
         return answer;
     }
-
-
-    public static void main(String[] args) {
-//        int[] citations = {3, 0, 6, 1, 5}; //-> 3
-//        int[] citations = {12, 11, 10, 9, 8, 1}; //-> 5
-//        int[] citations = {6, 6, 6, 6, 6, 1}; //-> 5
-//        int[] citations = {4, 4, 4}; //-> 3
-//        int[] citations = {0, 0, 0, 0, 0}; //-> 0
-
-        int[] citations = {1, 4}; //-> 1
-//        int[] citations = {0, 1, 2}; //-> 1
-//        int[] citations = {2, 2, 2, 2, 2}; //=> 2
-//        int[] citations = {0, 1, 1}; // => 1
-        solution(citations);
-
-    }
 }
