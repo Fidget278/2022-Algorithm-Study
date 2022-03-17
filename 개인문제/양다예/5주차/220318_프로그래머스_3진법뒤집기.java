@@ -1,9 +1,3 @@
-package personal;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class Programmers3 {
 
     public static int solution(int n) {
@@ -23,11 +17,5 @@ public class Programmers3 {
         }
 
         return answer;
-    }
-
-
-    public static void main(String[] args) {
-        int n = 1;
-        solution(n);
     }
 }
