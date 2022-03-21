@@ -1,5 +1,5 @@
 public class Programmers3 {
-
+//https://programmers.co.kr/learn/courses/30/lessons/68935
     public static int solution(int n) {
         int answer = 0;
         List<Integer> list = new ArrayList<>();
