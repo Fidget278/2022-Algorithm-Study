@@ -1,3 +1,4 @@
+// 링크 : https://www.acmicpc.net/problem/2805
 // python으로 할 경우 : 3400ms, java로 할 경우 : 560ms
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
