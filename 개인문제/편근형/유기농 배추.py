@@ -1,6 +1,7 @@
 # 링크 : https://www.acmicpc.net/problem/1012
 # 시간 : 88ms
 # 코드 길이 : 734B
+# 메모리 : 30860KB
 
 import sys
 ssr = sys.stdin.readline
