@@ -25,10 +25,9 @@ def solution(s):
                 if cnt != 1:
                     ret += str(cnt) + rep
                     cnt = 1
-                    rep = temp
                 else:
                     ret += rep
-                    rep = temp
+                rep = temp
         if len(ret) < answer:
             answer = len(ret)
     return answer
