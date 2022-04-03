@@ -7,7 +7,6 @@ public class AlgorithmStudy6 {
     public static int solution(int n, int[] lost, int[] reserve) {
         int answer = 0;
         Map<Integer, String> map = new HashMap<>();
-        int reserveLength = 0;
 
         //key : 체육복 도난당한 학생들
         if (lost != null) {
