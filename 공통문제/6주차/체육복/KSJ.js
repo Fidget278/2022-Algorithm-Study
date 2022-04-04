@@ -4,7 +4,7 @@
 // 시간 : O(n^2)
 
 function solution(n, lost, reserve) {
-  var answer = 0;
+  var answer = ;
   let lostarr = []; //도난된 학생
   let count = 0;
 
