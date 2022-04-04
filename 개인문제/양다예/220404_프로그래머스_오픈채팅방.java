@@ -19,7 +19,7 @@ public class Programmers4 {
             }
 
             //Change인 경우에는 메시지에 기록을 남기지 않아도 되므로
-            if(recordStr[0].equals("Enter") || recordStr[0].equals("Leave")) {
+            if(!recordStr[0].equals("Change")) {
                 list.add(record[i]);
             }
         }
