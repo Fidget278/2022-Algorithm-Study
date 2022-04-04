@@ -28,3 +28,4 @@
 |다리를 지나는 트럭|2022-03-07 ~ 2022-03-14|[[링크](https://programmers.co.kr/learn/courses/30/lessons/42583)]
 |H-Index|2022-03-14 ~ 2022-03-21|[[링크](https://programmers.co.kr/learn/courses/30/lessons/42747)]
 |체육복|2022-03-21 ~ 2022-04-04|[[링크](https://programmers.co.kr/learn/courses/30/lessons/42862)]
+|타겟 넘버|2022-04-04 ~ 2022-04-11|[[링크](https://programmers.co.kr/learn/courses/30/lessons/43165)]
