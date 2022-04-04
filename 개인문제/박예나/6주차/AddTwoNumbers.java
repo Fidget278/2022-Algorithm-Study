@@ -62,6 +62,6 @@ public class AddTwoNumbers {
             current.next = new ListNode(advance);
 
 
-        return head;
+        return head.next;
     }
 }
