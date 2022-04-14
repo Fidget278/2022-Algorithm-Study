@@ -1,4 +1,4 @@
-// https://programmers.co.kr/learn/courses/30/lessons/43165?language=javascript
+// https://programmers.co.kr/learn/courses/30/lessons/86051
 // 프로그래머스 - 월간 코드 챌린지 시즌3 - 없는 숫자 더하기
 // 작성자 : 김성중
 // 시간 : O(n^2)
