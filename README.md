@@ -29,3 +29,6 @@
 |H-Index|2022-03-14 ~ 2022-03-21|[[링크](https://programmers.co.kr/learn/courses/30/lessons/42747)]
 |체육복|2022-03-21 ~ 2022-04-04|[[링크](https://programmers.co.kr/learn/courses/30/lessons/42862)]
 |타겟 넘버|2022-04-04 ~ 2022-04-11|[[링크](https://programmers.co.kr/learn/courses/30/lessons/43165)]
+|음양 더하기|2022-04-29 ~ 2022-05-10|[[링크](https://programmers.co.kr/learn/courses/30/lessons/76501)]
+|크레인 인형뽑기 게임|2022-04-29 ~ 2022-05-10|[[링크](https://programmers.co.kr/learn/courses/30/lessons/64061)]
+|키패드 누르기|2022-04-29 ~ 2022-05-10|[[링크](https://programmers.co.kr/learn/courses/30/lessons/67256)]
