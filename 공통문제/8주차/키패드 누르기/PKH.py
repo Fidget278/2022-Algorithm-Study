@@ -22,3 +22,7 @@ def solution(numbers, hand):
                 answer += 'L'
                 left = [1,j]
     return answer
+
+# 패드를 열별로 구현.
+# 경우의 수에 따라서 문자열을 더하는 방식으로 한다.
+# index 메소드는 해당 값의 배열의 인덱스를 추출하는 메소드이다.
