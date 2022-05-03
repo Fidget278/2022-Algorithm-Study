@@ -6,3 +6,6 @@ def solution(absolutes, signs):
         else:
             answer += i
     return answer
+
+
+# sign에 따라서 '+', '-'를 정해 반환값에 더하거나 빼는 방식 
