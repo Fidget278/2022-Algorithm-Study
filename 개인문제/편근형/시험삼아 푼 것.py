@@ -64,7 +64,7 @@ queue2 = [5, 7, 2]
 q1 = deque(queue1)
 q2 = deque(queue2)
 q = q1 + q2
-S,M = sum(q), max(q)
+S,M,N = sum(q), max(q),len(q)
 # print(sum(q))
 flag = True
 cnt = 0
@@ -73,7 +73,7 @@ if (S % 2 != 0) or (S - M < M):
 else:
   ret = sum(q) // 2
   while True:
-    if(len(q1) == 0 or len(q2) == 0) or (2*((len(q)-2)**2) < cnt):
+    if(len(q1) == 0 or len(q2) == 0) or (2*N*(N-2) < cnt):
       flag = False
       break
     a,b = sum(q1), sum(q2)
