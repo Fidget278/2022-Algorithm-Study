@@ -19,32 +19,50 @@
 '''
 
 from collections import deque
-from copy import deepcopy
 import sys
 ssr = sys.stdin.readline
 
 # queue1 = [3,2,7,2]
 # queue2 = [4,6,5,1]
+# 2
 
 # queue1 = [1,2,1,2]
 # queue2 = [1,10,1,2]
+# 7
 
 # queue1 = [31,4,3]
 # queue2 = [1,2,3]
+# -1 
 
 # queue1 = [2]
 # queue2 = [2,2,8,2]
+# 6
+
+# queue1 = [2]
+# queue2 = [2,2,2,2,2,2,16,2]
+# 14
 
 # queue1 = [2]
 # queue2 = [2,2,7,2]
+# -1
 
 queue1 = [10, 2]
 queue2 = [5, 7, 2]
+# -1
+
+# queue1 = [4,2,3,1]
+# queue2 = [2,3]
+# -1
+
+# queue1 = [1,2,2]
+# queue2 = [1,1]
+# -1
+
+# queue1 = [2]
+# queue2 = [1,1,1,1,8,2]
 
 q1 = deque(queue1)
 q2 = deque(queue2)
-
-origin_q1 = deepcopy(q1)
 q = q1 + q2
 S,M = sum(q), max(q)
 # print(sum(q))
@@ -55,7 +73,7 @@ if (S % 2 != 0) or (S - M < M):
 else:
   ret = sum(q) // 2
   while True:
-    if(len(q1) == 0 or len(q2) == 0) or (origin_q1 == q2):
+    if(len(q1) == 0 or len(q2) == 0) or (2*((len(q)-2)**2) < cnt):
       flag = False
       break
     a,b = sum(q1), sum(q2)
