@@ -73,7 +73,7 @@ if (S % 2 != 0) or (S - M < M):
 else:
   ret = sum(q) // 2
   while True:
-    if(len(q1) == 0 or len(q2) == 0) or (2*N*(N-2) < cnt):
+    if(len(q1) == 0 or len(q2) == 0) or (N*(N-2) < cnt):
       flag = False
       break
     a,b = sum(q1), sum(q2)
