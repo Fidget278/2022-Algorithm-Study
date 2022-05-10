@@ -18,8 +18,7 @@
     
   2. GitHub를 통해 Pull Request로 알고리즘 풀이 코드 관리.
 
-## 주간 문제
-
+## 주간 문제(2022-02-07 ~ 2022-05-10)
 |**문제 제목**|**기간**|**링크**|
 |:------:|:---:|:---:|
 |완주하지 못한 선수|2022-02-07 ~ 2022-02-17|[[링크](https://programmers.co.kr/learn/courses/30/lessons/42576)]
@@ -32,3 +31,9 @@
 |음양 더하기|2022-04-29 ~ 2022-05-10|[[링크](https://programmers.co.kr/learn/courses/30/lessons/76501)]
 |크레인 인형뽑기 게임|2022-04-29 ~ 2022-05-10|[[링크](https://programmers.co.kr/learn/courses/30/lessons/64061)]
 |키패드 누르기|2022-04-29 ~ 2022-05-10|[[링크](https://programmers.co.kr/learn/courses/30/lessons/67256)]
+
+## 주간 문제(2022-05-10 ~ )
+
+|**문제 제목**|**문제 제목**|**문제 제목**|**기간**|
+|:------:|:------:|:------:|:---:|
+|[버블 소트](https://www.acmicpc.net/problem/1377)|[K번째 수](https://www.acmicpc.net/problem/11004)|[힙 정렬](https://www.acmicpc.net/problem/2220)|2022-05-10 ~ 2022-05-17|
