@@ -34,7 +34,7 @@
 
 ## 주간 문제(2022-05-10 ~ )
 
-|**문제 제목**|**문제 제목**|**문제 제목**|**기간**|
-|:------:|:------:|:------:|:---:|
-|[버블 소트](https://www.acmicpc.net/problem/1377)|[K번째 수](https://www.acmicpc.net/problem/11004)|[힙 정렬](https://www.acmicpc.net/problem/2220)|2022-05-10 ~ 2022-05-17|
-|[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)|[Path Sumⅱ](https://leetcode.com/problems/path-sum-ii/)|[힙 정렬](https://www.acmicpc.net/problem/2220)|2022-05-17 ~ 2022-05-24|
+|**문제 제목**|**문제 제목**|**문제 제목**|**기간**|**비고**|
+|:------:|:------:|:------:|:---:|:---:|
+|[버블 소트](https://www.acmicpc.net/problem/1377)|[K번째 수](https://www.acmicpc.net/problem/11004)|[힙 정렬](https://www.acmicpc.net/problem/2220)|2022-05-10 ~ 2022-05-17| 힙정렬 다음주까지로 변경 |
+|[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)|[Path Sumⅱ](https://leetcode.com/problems/path-sum-ii/)|[힙 정렬](https://www.acmicpc.net/problem/2220)|2022-05-17 ~ 2022-05-24| 힙, 트리, 힙정렬 공부, 기수, 계수 개념공부 |
