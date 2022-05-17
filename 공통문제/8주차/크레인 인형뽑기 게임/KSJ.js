@@ -1,7 +1,7 @@
 // https://programmers.co.kr/learn/courses/30/lessons/64061
 // 프로그래머스 - 2019 카카오 개발자 겨울 인턴십 - 크레인 인형뽑기 게임
 // 작성자 : 김성중
-// 출처 : https://sustainable-dev.tistory.com/152
+
 function solution(board, moves) {
   //인형을 담을 바구니
   let bascket = [];
