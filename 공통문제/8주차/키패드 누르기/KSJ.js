@@ -1,7 +1,7 @@
 // https://programmers.co.kr/learn/courses/30/lessons/64061
 // 프로그래머스 - 2020 카카오 인턴십 - 키패드 누르기
 // 작성자 : 김성중
-// 출처 : https://velog.io/@hadam/JS-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%82%A4%ED%8C%A8%EB%93%9C-%EB%88%84%EB%A5%B4%EA%B8%B0
+
 
 // 현 손가락 위치에서 누를 자판까지의 거리를 구하는 함수
 function getDistance(start, target) {
