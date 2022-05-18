@@ -27,11 +27,9 @@ class Solution:
             if left == False and right == False:
                 lst.pop()
                 
-                
-        now = root
         q = []
-        if now == None:
+        if root == None:
             return []
-        q.append(now.val)
-        check(q, targetSum, now)
+        q.append(root.val)
+        check(q, targetSum, root)
         return answer
