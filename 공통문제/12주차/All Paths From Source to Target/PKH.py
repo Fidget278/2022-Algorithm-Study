@@ -25,3 +25,7 @@ class Solution:
         q = [0]
         check(q, 0)
         return answer
+
+'''
+DFS 문제로 저번에 풀었던 Path Sum II와 동일하게 풀었다.
+'''
