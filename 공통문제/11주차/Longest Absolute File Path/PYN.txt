@@ -1,0 +1,42 @@
+import java.util.*;
+
+class Solution {
+    public int lengthLongestPath(String input) {
+        List<Integer> length = new ArrayList<>();
+        String[] inputArr = input.split("\\n");
+        checkPath(Arrays.copyOfRange(inputArr, 1, inputArr.length), inputArr[0].length(), length, 1);
+        
+        int maxLen = 0;
+        for(int len : length) {
+            if(maxLen < len)
+                maxLen = len;
+        }
+        return maxLen;
+    }
+    
+     public void checkPath(String[] inputArr, int curLength, List<Integer> length, int edge) {
+
+        if(inputArr.length <= 0)
+            return;
+
+         if(inputArr[0].contains(".ext")) {
+            length.add(curLength + inputArr[0].length() - edge + 1);
+            return;
+        }
+         
+        for(int i = 0; i < inputArr.length; ++i) {
+
+            int lastIndex = inputArr[i].lastIndexOf("\t");
+            
+            if(lastIndex + 1 < edge)
+                break;
+            else if( inputArr[i].lastIndexOf("\t") + 1 == edge) {
+                
+                if(inputArr[i].contains(".ext"))
+                    length.add(curLength + inputArr[i].length() - edge + 1);
+                
+                checkPath(Arrays.copyOfRange(inputArr, i+1, inputArr.length), curLength + inputArr[i].length() - edge + 1, length, edge + 1);
+            }
+        }
+    }
+}
