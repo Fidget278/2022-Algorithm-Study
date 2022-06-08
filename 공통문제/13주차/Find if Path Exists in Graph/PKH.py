@@ -19,3 +19,7 @@ class Solution:
                     visited.append(Next)
                     q.append(Next)  
         return False
+
+'''
+BFS로 문제 해결.
+'''
