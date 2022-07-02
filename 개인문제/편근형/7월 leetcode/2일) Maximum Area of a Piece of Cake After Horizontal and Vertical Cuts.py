@@ -1,9 +1,8 @@
 # 링크 : https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
-# 시간 : 395ms faster than 69.96%
+# 시간 : 334ms faster than 93.94%
 
 class Solution:
     def maxArea(self, h: int, w: int, horizontalCuts: List[int], verticalCuts: List[int]) -> int:
-        answer = 0
         horizontalCuts = [0] + horizontalCuts + [h]
         verticalCuts = [0] + verticalCuts + [w]
         verticalCuts.sort(); horizontalCuts.sort()
