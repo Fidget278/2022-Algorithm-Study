@@ -1,0 +1,43 @@
+import java.util.*;
+
+class Solution {
+    public int solution(String s) {
+        StringBuilder answer = new StringBuilder();
+
+        Map<String, Integer> map = makeHash();
+
+        int i = -1;
+        StringBuilder str = new StringBuilder();
+        while(++i < s.length()) {
+            char c = s.charAt(i);
+            if('0' <= c && '9' >= c) {
+                answer.append(c);
+            } else {
+                str.append(c);
+                Integer value = map.get(str.toString());
+                if(null != value) {
+                    answer.append(value);
+                    str.setLength(0);
+                }
+            }
+        }
+        return Integer.parseInt(answer.toString());
+    }
+
+    public Map<String, Integer> makeHash() {
+        Map<String, Integer> map = new HashMap<String, Integer>();
+
+        map.put("zero", 0);
+        map.put("one", 1);
+        map.put("two", 2);
+        map.put("three", 3);
+        map.put("four", 4);
+        map.put("five", 5);
+        map.put("six", 6);
+        map.put("seven", 7);
+        map.put("eight", 8);
+        map.put("nine", 9);
+
+        return map;
+    }
+}
