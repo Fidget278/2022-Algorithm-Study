@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/ransom-note/submissions/
+# 71ms, 14MB
 
 from collections import Counter
 class Solution:
